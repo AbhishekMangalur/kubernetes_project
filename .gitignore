@@ -1,0 +1,20 @@
+NEW_FILE_CODE
+# Build output
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Local env & Docker
+.env
+minikube-linux-amd64
+logs.txt
+
+# Optional: keep k8s but allow overrides
+k8s/*-override.yaml
