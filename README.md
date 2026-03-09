@@ -19,19 +19,7 @@ Hello Guest
 
 ## Project Architecture
 
-Java Servlet Application
-        ↓
-Maven Build (WAR)
-        ↓
-Docker Image
-        ↓
-Tomcat Container
-        ↓
-Kubernetes Deployment
-        ↓
-Kubernetes Service / Ingress
-        ↓
-Browser / API Request
+Java Servlet Application -> Maven Build (WAR) -> Docker Image -> Tomcat Container -> Kubernetes Deployment -> Kubernetes Service / Ingress -> Browser / API Request
 
 ---
 
