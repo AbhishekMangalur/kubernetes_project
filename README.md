@@ -35,24 +35,6 @@ Browser / API Request
 
 ---
 
-## Project Structure
-
-.
-├── src/
-│   └── main/
-│       ├── java/com/sap/docker/MainServlet.java
-│       └── webapp/WEB-INF/web.xml
-│
-├── k8s/
-│   ├── deployment.yaml
-│   └── ingress.yaml
-│
-├── Dockerfile
-├── pom.xml
-└── README.txt
-
----
-
 ## Prerequisites
 
 Make sure the following tools are installed:
@@ -197,7 +179,3 @@ This project demonstrates:
 - Running applications locally using Minikube
 
 ---
-
-## Author
-
-Abhishek M
